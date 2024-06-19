@@ -8,7 +8,7 @@ lmc_say('General Profile');
 lmc_set_handler('MacroPad',function(button, direction)
   if (direction == 1) then return end  -- ignore down
   
-  if (button == 112)     then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Executables\\AutoComplete.exe") -- F1 Launch AHK AutoComplete
+  if (button == 112)     then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Executables\\Exec V2\\AutoComplete.exe") -- F1 Launch AHK AutoComplete
   elseif (button == 113) then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Executables\\Exec V2\\Overdue Invoice Reminder.exe") -- F2 Launch Overdue Invoice Reminder
   elseif (button == 114) then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Executables\\Exec V2\\Invoice Reminder.exe") -- F3 Launch Invoice Reminder
   elseif (button == 115) then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Ahk2Exe.exe") -- F4 Launch AHKtoExe
