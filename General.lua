@@ -11,9 +11,9 @@
     
     if (button == 112)     then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Executables\\Exec V2\\Invoice Reminder.exe") -- F1 Launch Invoice Reminder
     elseif (button == 113) then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Executables\\Exec V2\\Overdue Invoice Reminder.exe") -- F2 Launch Overdue Invoice Reminder
-    elseif (button == 114) then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Executables\\Exec V2\\Invoice Reminder.exe") -- F3 Launch Invoice Reminder
-    elseif (button == 115) then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Ahk2Exe.exe") -- F4 Launch AHKtoExe
-    elseif (button == 116) then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Executables\\Luamacros Profiles\\Zoom.exe") -- F5 Launch Zoom Luamacros Profile
+    elseif (button == 114) then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Executables\\Exec V2\\MinimizeAll.exe") -- F3 Minimize All
+    elseif (button == 115) then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Executables\\Exec V2\\Reset Desktop.exe") -- F4 Reset Desktop Apps
+    elseif (button == 116) then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Executables\\Exec V2\\Resizer.exe") -- F5 Shuffle
     
     elseif (button == 192) then lmc_send_keys("^`") -- Ditoo Clipboard
     elseif (button == string.byte('1')) then lmc_send_keys("#%1") -- 
