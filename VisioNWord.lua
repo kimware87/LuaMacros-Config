@@ -24,8 +24,8 @@ lmc_set_handler('MacroPad',function(button, direction)
   elseif (button == string.byte('Q')) then lmc_send_keys("#+{LEFT}") -- Move Active Windows Left or Right
   elseif (button == string.byte('W')) then lmc_send_keys("%NPP") -- Visio Insert Image
   elseif (button == string.byte('E')) then lmc_send_keys("^r") -- Visio Rotate Shape Right
-  elseif (button == string.byte('R')) then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Executables\\Replace Text.exe")
-  elseif (button == string.byte('T')) then lmc_send_keys("+{F10}a&&&&~") -- Word Change Picture
+  elseif (button == string.byte('R')) then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Executables\\Exec V2\\Replace Text Hidden.exe")
+  elseif (button == string.byte('T')) then lmc_send_keys("+{F10}ef") -- Word Change Picture
   elseif (button == string.byte('A')) then lmc_send_keys("^a") -- Select All
   elseif (button == string.byte('S')) then lmc_send_keys("^s") -- Save
   elseif (button == string.byte('D')) then lmc_send_keys("{DEL}") -- Delete
