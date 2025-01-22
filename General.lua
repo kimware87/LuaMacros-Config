@@ -2,7 +2,7 @@
   lmc_minimize()
   lmc_device_set_name ('MacroPad', '22EE973'); -- Royal Kludge B20
   lmc_device_set_name ('FullPad', '2D22E3A'); -- Royal Kuldge RK100 2.4G
-  lmc_device_set_name ('FullPad', '32D22E3A'); -- Royal Kuldge RK100 Wired
+  lmc_device_set_name ('FullPad', '36DB7EF8'); -- Royal Kuldge RK100 Wired
   lmc_say('General Profile');
 
 -- define callback for whole device
