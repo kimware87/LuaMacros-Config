@@ -1,4 +1,4 @@
-This is a more simplified Lua Files for using LuaMacros with a Gaming Single Handed Keyboard for Productivity
+This is a more simplified Lua Files for using LuaMacros with a Gaming Single Handed Keyboard and a 97% Keyboard for Productivity
 
 General.lua - a LuaMacros lua config file to mapping a Royal Kludge B20 Keyboard, Royal Kludge RK100 for both Wired and Wireless Connection
 Each entry has been labeled by which original key is mapped and what action it is mapped to.
