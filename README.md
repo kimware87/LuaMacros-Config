@@ -4,7 +4,7 @@ General.lua - a LuaMacros lua config file to mapping a Royal Kludge B20 Keyboard
 Each entry has been labeled by which original key is mapped and what action it is mapped to.
 At the buttom of the Config Files are Keymaps and Codes for most used Keys and Keycodes
 
-VisionNWord.lua - same as above by geared towards MS Visio and MS Word for Layouts and Document Updates
+VisionNWord.lua - same as above but geared towards MS Visio and MS Word for Layouts and Document Updates
 
 Template for K512 - is a lua config file for Fantech K512 Single Handed Keyboard
 
