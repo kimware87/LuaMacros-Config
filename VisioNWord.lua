@@ -1,7 +1,7 @@
 lmc_minimize()
 lmc_device_set_name ('MacroPad', '22EE973'); -- Royal Kludge B20
 lmc_device_set_name ('FullPad', '2D22E3A'); -- Royal Kuldge RK100 2.4G
-lmc_device_set_name ('FullPad', '32D22E3A'); -- Royal Kuldge RK100 Wired
+lmc_device_set_name ('FullPad', '7E4724A'); -- Royal Kuldge RK100 Wired
 lmc_say('Drawing Profile');
 
 -- define callback for whole device
@@ -12,7 +12,7 @@ lmc_set_handler('MacroPad',function(button, direction)
   elseif (button == 113) then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Executables\\Exec V2\\TMP.exe") -- F2 Launch TMP Package Automation
   elseif (button == 114) then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Executables\\Exec V2\\Emergency Evac.exe") -- F3 Launch Emergency Evac Automation
   elseif (button == 115) then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Executables\\TMP Evac.exe") -- F4 Launch TMP Evac Automation
-  elseif (button == 116) then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Executables\\Luamacros Profiles\\Zoom.exe") -- F5 Launch Zoom Luamacros Profile
+  elseif (button == 116) then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Executables\\Exec V2\\Resizer.exe") -- F5 Launch Zoom Luamacros Profile
   
   elseif (button == string.byte('1')) then lmc_send_keys("^1") -- Visio Pointer Tool
   elseif (button == string.byte('2')) then lmc_send_keys("^8") -- Visio Rectangle Tool
