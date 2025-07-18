@@ -2,7 +2,7 @@
   lmc_minimize()
   lmc_device_set_name ('MacroPad', '22EE973'); -- Royal Kludge B20
   lmc_device_set_name ('FullPad', '2D22E3A'); -- Royal Kuldge RK100 2.4G
-  lmc_device_set_name ('FullPad', '36DB7EF8'); -- Royal Kuldge RK100 Wired
+  lmc_device_set_name ('FullPad', '7E4724A'); -- Royal Kuldge RK100 Wired
   lmc_say('General Profile');
 
 -- define callback for whole device
@@ -91,6 +91,9 @@
   -- & = Tab
   -- ~ = Enter
 
+  --Surround characters or key names with parentheses in order to modify them as a group.
+  --For example, +abc shifts only a, while +(abc) shifts all three characters.
+  
   -- Refer to these keys by surrounding them with curly braces. For example, {F3} sends the F3 key.
   -- BKSP, BS, BACKSPACE
   -- BREAK
