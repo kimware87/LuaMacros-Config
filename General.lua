@@ -91,9 +91,6 @@
   -- & = Tab
   -- ~ = Enter
 
-  --Surround characters or key names with parentheses in order to modify them as a group.
-  --For example, +abc shifts only a, while +(abc) shifts all three characters.
-  
   -- Refer to these keys by surrounding them with curly braces. For example, {F3} sends the F3 key.
   -- BKSP, BS, BACKSPACE
   -- BREAK
