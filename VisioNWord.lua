@@ -8,11 +8,11 @@ lmc_say('Drawing Profile');
 lmc_set_handler('MacroPad',function(button, direction)
   if (direction == 1) then return end  -- ignore down
   
-  if (button == 112) then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Executables\\Exec V2\\ALH TMP.exe") -- F1 Launch ALH Automation
-  elseif (button == 113) then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Executables\\Exec V2\\TMP.exe") -- F2 Launch TMP Package Automation
-  elseif (button == 114) then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Executables\\Exec V2\\Emergency Evac.exe") -- F3 Launch Emergency Evac Automation
-  elseif (button == 115) then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Executables\\TMP Evac.exe") -- F4 Launch TMP Evac Automation
-  elseif (button == 116) then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Executables\\Exec V2\\Resizer.exe") -- F5 Launch Zoom Luamacros Profile
+  if (button == 112) then lmc_spawn("") -- F1 
+  elseif (button == 113) then lmc_spawn("") -- F2 Launch 
+  elseif (button == 114) then lmc_spawn("") -- F3 Launch 
+  elseif (button == 115) then lmc_spawn("") -- F4 Launch 
+  elseif (button == 116) then lmc_spawn("E:\\PortableApps\\AutoHotkeyPortable\\Executables\\Exec V2\\Resizer.exe") -- F5 Launch Shuffle Function
   
   elseif (button == string.byte('1')) then lmc_send_keys("^1") -- Visio Pointer Tool
   elseif (button == string.byte('2')) then lmc_send_keys("^8") -- Visio Rectangle Tool
